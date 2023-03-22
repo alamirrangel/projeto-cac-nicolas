@@ -1,0 +1,101 @@
+/*RESET CONFIGURAÇÕES NAVEGADOR*/
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*GERAL PAGINA*/
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+section h2, section h3 {
+    font-family: 'Opens Sans', sans-serif;
+    font-weight: bold;
+}
+section p, footer {
+    font-family: 'Opens Sans', sans-serif;
+    font-weight: normal;
+}
+
+/*CABEÇALHO*/
+header .container {
+    display: flex;
+    align-items:  center;
+    justify-content: center;
+    background-color: rgb(255, 94, 0);
+    height: 96px;
+}
+header img {
+    height: 96px;
+    align-items: center;
+    }
+header ul {
+    text-decoration: none;
+}
+
+/*SEÇÃO SOBRE*/
+section .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 8px;
+}
+section p {
+    margin-top: 16px;
+    color: rgb(66, 65, 65);
+}
+.store-front {
+    max-height: 300px;
+    margin-right: 16px;
+}
+
+/*SEÇÃO CONTATO*/
+#contact .container {
+    display: block;
+}
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32px;
+    flex-wrap: wrap
+}
+
+/*SUB SEÇÃO CONTACT-METHODS*/
+.contact-methods h3 {
+    margin-bottom: 16px;
+}
+.contact-methods img {
+    height: 24px;
+}
+.contact-methods li {
+    display: inline;
+    margin-right: 8px;
+}
+.contact-methods li a{
+    text-decoration: none;
+}
+.contact-methods a {
+    color: black;
+}
+
+ul.social-links  {
+    margin-top: 8px;
+}
+
+/*RODAPÉ*/
+footer {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    background-color:rgb(255, 94, 0);
+    color: black;
+    padding: 16px 0;
+}
+
+footer p {
+    margin-left: 8px;
+}
