@@ -5,14 +5,12 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 /*GERAL PAGINA*/
 .container {
     max-width: 1280px;
     width: 100%;
     margin: 0 auto;
 }
-
 section h2, section h3 {
     font-family: 'Opens Sans', sans-serif;
     font-weight: bold;
@@ -21,28 +19,26 @@ section p, footer {
     font-family: 'Opens Sans', sans-serif;
     font-weight: normal;
 }
-
 /*CABEÇALHO*/
 header .container {
     display: flex;
     align-items:  center;
     justify-content: center;
     background-color: rgb(255, 94, 0);
-    height: 96px;
+    height: auto;
 }
 header img {
     height: 96px;
     align-items: center;
-    }
+}
 header ul {
     text-decoration: none;
 }
-
 /*SEÇÃO SOBRE*/
 section .container {
     display: flex;
     justify-content: space-between;
-    padding: 8px 8px;
+    padding: 8px 0;
 }
 section p {
     margin-top: 16px;
@@ -52,18 +48,16 @@ section p {
     max-height: 300px;
     margin-right: 16px;
 }
-
 /*SEÇÃO CONTATO*/
 #contact .container {
-    display: block;
+    display: block;;
 }
 .contact-methods {
     display: flex;
     justify-content: space-between;
-    margin-top: 32px;
-    flex-wrap: wrap
+    margin-top: 16px;
+    flex-wrap: wrap    
 }
-
 /*SUB SEÇÃO CONTACT-METHODS*/
 .contact-methods h3 {
     margin-bottom: 16px;
@@ -81,11 +75,9 @@ section p {
 .contact-methods a {
     color: black;
 }
-
 ul.social-links  {
     margin-top: 8px;
 }
-
 /*RODAPÉ*/
 footer {
     max-width: 1280px;

@@ -1,9 +1,8 @@
 @media (max-width: 1280px) {
-    body {
-        padding: 0 40px;
+    #contact .container, #about .container {
+        padding: 8px 8px;
     }
 }
-
 @media (max-width: 768px) {
     div, .container div {
         display: flex;
@@ -11,20 +10,41 @@
         align-items: center;
         text-align: center;
     }
+    .store-front {
+        margin-bottom: 16px;
+    }
+    .talk-us p {
+        margin-top: 8px;
+    }
+    .contact-methods h3, .contact-methods p, .social-links {
+        margin: 8px 0;
+    }
+    ul.talk-us {
+        height: 40px;
+    }
 }
-
 @media (max-width: 425px) {
     .store-front {
         max-width: 300px;
         padding: 0 0;
-        margin: 0 0;
+        margin: 8px 0;
     }
-
     .sobreLoja {
         width: 100%;
+    }
+    .container 
+    ul.social-links {
+        margin-top: 0;
+        margin-bottom: 16px;
+    }
+    .talk-us p {
+        margin-top: 0;
+    }
+    p.sobreLoja {
+        margin-top: 8px;
+        margin-bottom: 16px;
+    }
+    .local-map p {
+        margin-top: 0;
     }    
-}
-
-@media (max-width: 375px) {
-    
 }
